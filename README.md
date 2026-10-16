@@ -161,6 +161,18 @@ The AI Christian Chatbot requires the following Python libraries to execute succ
 * **os:** A built-in Python module used to retrieve the OpenaAI API key from the OPENAI_API_KEY environment variable.
 * **sys:** A built-in Python module used to manipulate console output, including clearing the temporary ```Processing...``` message.
 
+## Project Structure
+
+```text
+AIChristianChatbot/
+│
+├── AIChristianChatbot.png   # Screenshot of the AI Christian Chatbot app
+├── .gitignore               # Specifies files and folders Git should ignore
+├── LICENSE                  # MIT License for the project
+├── README.md                # Project documentation
+└── AI CHRISTIAN CHATBOT.py  # Main application
+```
+
 ## Licensing 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
