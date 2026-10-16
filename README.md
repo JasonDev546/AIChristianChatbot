@@ -1,5 +1,5 @@
 # AI Christian Chatbot App
-## Chatbot that provides information on four Christian denominations (Eartern Orthodoxy, Catholicism, Protestantism, and Jehovah's Witness) in an engaging and user-friendly format.
+## Chatbot that provides information on four Christian denominations (Eastern Orthodoxy, Catholicism, Protestantism, and Jehovah's Witness) in an engaging and user-friendly format.
 
 ## Project Overview
 The **AI Christian Chatbot** is a Python-based, command-line application that integrates the OpenAI API to provide interactive, AI-generated responses to questions about Christian religious beliefs, doctrines, and practices. 
@@ -27,7 +27,7 @@ The project demonstrates the practical application of Python object-oriented pro
 * **Processing Status Indicator:** Displays a temporary ```Processing...``` message while waiting for the AI-generated response.
 * **Application Exit Command:** Allows users to terminate the chatbot by entering exit.
 * **Ethical and Privacy Disclaimers:** Presents important clarifications about AI limitations, educational purposes, and sensitive information before allowing users to interact with the chatbot.
-* **Object-Oriented Design:** Orgganizes the application into separate Python classes for API communication and chatbot functionality, improving code organization and maintainability.
+* **Object-Oriented Design:** Organizes the application into separate Python classes for API communication and chatbot functionality, improving code organization and maintainability.
 
 ## Live Demo
 [![AI Christian Chatbot App](https://github.com/ComeG3tSome/AIChristianChatbot/blob/main/AIChristianChatbot.png)](https://www.youtube.com/watch?v=QqZFvqUfVfo)
@@ -56,7 +56,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 3. Generate an OpenAI API key through the [OpenAI Platform](https://platform.openai.com/api-keys) and ensure that your API billing account is active.
 4. Configure your OpenAI API key as an environment variable:
    
-   **Windows (Powershell):**
+   **Windows (PowerShell):**
      ```$env:OPENAI_API_KEY = "YOUR_API_KEY"```
    
    **Windows (Command Prompt):**
@@ -65,12 +65,14 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    **macOS/Linux:**
      ```export OPENAI_API_KEY="YOUR_API_KEY"```
    
-6. Ensure that the Python script retrieves the API key from the environment variable:
+5. Ensure that the Python script retrieves the API key from the environment variable:
    ```
    import os
 
    api_key = os.environ["OPENAI_API_KEY"]
-7. Run the application:
+   ```
+   
+6. Run the application:
    
    python AICHRISTIANCHATBOT.py
 
@@ -79,13 +81,13 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 2. Generate an API key from the [OpenAI API Keys page](https://platform.openai.com/api-keys). Ensure that your OpenAI API account has active billing and sufficient credits or available usage quota.
 3. Configure the ```OPENAI_API_KEY``` environment variable on your operating system:
    
-    **Windows (Powershell):**
+    **Windows (PowerShell):**
      ```$env:OPENAI_API_KEY = "YOUR_API_KEY"```
    
    **Windows (Command Prompt):**
      ```set OPENAI_API_KEY=YOUR_API_KEY```
    
-   ***macOS/Linux:**
+   **macOS/Linux:**
      ```export OPENAI_API_KEY="YOUR_API_KEY"```
 4. Ensure that the Python application retrieves the API key from the environment variable using the following code:
    ```
@@ -111,7 +113,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    python AICHRISTIANCHATBOT.py
    ```
 2. **Read and acknowledge the important disclaimers:** The application displays important information regarding the limitations of AI-generated responses, its educational purpose, and the protection of personal and sensitive information. Type ```yes``` or ```YES``` to confirm that you have read and understood the disclaimers.
-3. **Select a Christian religious denomination:** Choose one of the four available options by entering tis corresponding number:
+3. **Select a Christian religious denomination:** Choose one of the four available options by entering its corresponding number:
    ```
    Select one of the following Christian religious denominations:
    1. Catholicism
@@ -125,7 +127,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    ```
    Select one of the following subtopics within Catholicism:
 
-   1. Sacraments of the the Catholic Church
+   1. Sacraments of the Catholic Church
    2. Types of worship
 
    Choose an option (1-2) for Catholicism:
@@ -145,7 +147,8 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    2. Protestantism
    3. Jehovah's Witness
    4. Eastern Orthodoxy
-7. **Exit the application:** Enter ```exit``` during an application to terminate the program.
+   ```
+7. **Exit the application:** Enter ```exit``` during a conversation to terminate the program.
    ```
    You: exit
 
@@ -158,7 +161,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 ## Dependencies
 The AI Christian Chatbot requires the following Python libraries to execute successfully:
 * **openai:** A third-party Python library used to communicate with the OpenAI API, send conversation messages, and retrieve AI-generated responses.
-* **os:** A built-in Python module used to retrieve the OpenaAI API key from the OPENAI_API_KEY environment variable.
+* **os:** A built-in Python module used to retrieve the OpenAI API key from the OPENAI_API_KEY environment variable.
 * **sys:** A built-in Python module used to manipulate console output, including clearing the temporary ```Processing...``` message.
 
 ## Project Structure
