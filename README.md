@@ -62,7 +62,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    **Windows (Command Prompt):**
      ```set OPENAI_API_KEY=YOUR_API_KEY```
    
-   ***macOS/Linux:**
+   **macOS/Linux:**
      ```export OPENAI_API_KEY="YOUR_API_KEY"```
    
 6. Ensure that the Python script retrieves the API key from the environment variable:
