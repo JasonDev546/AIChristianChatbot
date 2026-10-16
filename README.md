@@ -74,7 +74,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    
 6. Run the application:
    
-   python AICHRISTIANCHATBOT.py
+   python AI CHRISTIAN CHATBOT.py
 
 ## Configuration
 1. Create an OpenAI account or sign in to the [OpenAI Platform](https://platform.openai.com/).
@@ -104,13 +104,13 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    The model can be changed by modifying the ```model``` parameter to another supported model         compatible with the Chat Completions API.
 6. Run the application from the terminal where the environment variable was configured:
    ```
-   python AICHRISTIANCHATBOT.py
+   python AI CHRISTIAN CHATBOT.py
    ```
 **Security Note:** Never include your actual OpenAI API key in your source code, GitHub repository, screenshots, or demonstration videos. Environment variables help prevent accidental exposure of API credentials. The commands above configure the variable for the current terminal session, so it may need to be configured again when opening a new terminal.
 ## Usage
 1. **Run the application** from your terminal or command prompt
    ```
-   python AICHRISTIANCHATBOT.py
+   python AI CHRISTIAN CHATBOT.py
    ```
 2. **Read and acknowledge the important disclaimers:** The application displays important information regarding the limitations of AI-generated responses, its educational purpose, and the protection of personal and sensitive information. Type ```yes``` or ```YES``` to confirm that you have read and understood the disclaimers.
 3. **Select a Christian religious denomination:** Choose one of the four available options by entering its corresponding number:
