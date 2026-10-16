@@ -55,18 +55,22 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    ```
 3. Generate an OpenAI API key through the [OpenAI Platform](https://platform.openai.com/api-keys) and ensure that your API billing account is active.
 4. Configure your OpenAI API key as an environment variable:
+   
    **Windows (Powershell):**
      ```$env:OPENAI_API_KEY = "YOUR_API_KEY"```
+   
    **Windows (Command Prompt):**
      ```set OPENAI_API_KEY=YOUR_API_KEY```
+   
    ***macOS/Linux:**
      ```export OPENAI_API_KEY="YOUR_API_KEY"```
-5. Ensure that the Python script retrieves the API key from the environment variable:
+   
+6. Ensure that the Python script retrieves the API key from the environment variable:
    ```
    import os
 
    api_key = os.environ["OPENAI_API_KEY"]
-6. Run the application:
+7. Run the application:
    
    python AICHRISTIANCHATBOT.py
      
