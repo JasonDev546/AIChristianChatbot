@@ -41,6 +41,36 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 * **Active OpenAI API Billing:** An API account with active billing and sufficient credits is required to process requests. API usage may incur charges.
 * **Internet Connection:** Required to communicate with the OpenAI API and receive AI-generated responses.
 * **Terminal or Command-Line Interface:** Required to execute the Python application and interact with the chatbot.
+
+## Installation
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/ComeG3tSome/AIChristianChatbot
+   cd AIChristianChatbot
+   ```
+2. Install the necessary Python packages required for the script to execute successfully
+   ```
+       pip install openai
+   ```
+3. Generate an OpenAI API key through the [OpenAI Platform](https://platform.openai.com/api-keys) and ensure that your API billing account is active.
+4. Configure your OpenAI API key as an environment variable:
+   **Windows (Powershell):**
+     ```$env:OPENAI_API_KEY = "YOUR_API_KEY"```
+   **Windows (Command Prompt):**
+     ```set OPENAI_API_KEY=YOUR_API_KEY```
+   ***macOS/Linux:**
+     ```export OPENAI_API_KEY="YOUR_API_KEY"```
+5. Ensure that the Python script retrieves the API key from the environment variable:
+   ```
+   import os
+
+   api_key = os.environ["OPENAI_API_KEY"]
+6. Run the application:
+   
+   python AICHRISTIANCHATBOT.py
+     
+
 ## Licensing 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
