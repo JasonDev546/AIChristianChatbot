@@ -105,6 +105,54 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
    python AICHRISTIANCHATBOT.py
    ```
 **Security Note:** Never include your actual OpenAI API key in your source code, GitHub repository, screenshots, or demonstration videos. Environment variables help prevent accidental exposure of API credentials. The commands above configure the variable for the current terminal session, so it may need to be configured again when opening a new terminal.
+## Usage
+1. **Run the application** from your terminal or command prompt
+   ```
+   python AICHRISTIANCHATBOT.py
+   ```
+2. **Read and acknowledge the important disclaimers:** The application displays important information regarding the limitations of AI-generated responses, its educational purpose, and the protection of personal and sensitive information. Type ```yes``` or ```YES``` to confirm that you have read and understood the disclaimers.
+3. **Select a Christian religious denomination:** Choose one of the four available options by entering tis corresponding number:
+   ```
+   Select one of the following Christian religious denominations:
+   1. Catholicism
+   2. Protestantism
+   3. Jehovah's Witness
+   4. Eastern Orthodoxy
+
+   Choose an option (1-4):
+   ```
+4. **Select a subtopic:** After selecting a denomination, choose one of its two predefined subtopics. For example, selecting Catholicism displays:
+   ```
+   Select one of the following subtopics within Catholicism:
+
+   1. Sacraments of the the Catholic Church
+   2. Types of worship
+
+   Choose an option (1-2) for Catholicism:
+   ```
+5. **Start a conversation:** Enter a question related to the selected denomination and subtopic. The chatbot sends the conversation history to the OpenAI API and displays the AI-generated response.
+   ```
+   You: What are the seven sacraments of the Catholic Church?
+
+   AI: (Catholicism - Sacraments of the Catholic Church): The seven sacraments are Baptism, Confirmation, Eucharist, Penance, Anointing of the Sick, Holy Orders, and Matrimony.
+   ```
+6. **Change denominations or subtopics:** Enter **999** during a conversation to return to the denomination selection menu without restarting the application. The previous conversation history is cleared when switching topics.
+   ```
+   You: 999
+
+   Select one of the following Christian religious denominations:
+   1. Catholicism
+   2. Protestantism
+   3. Jehovah's Witness
+   4. Eastern Orthodoxy
+7. **Exit the application:** Enter ```exit``` during an application to terminate the program.
+   ```
+   You: exit
+
+   See you later!
+   ```
+
+**Note:** The chatbot requires an active Internet connection and a valid OpenAI API key with available API usage quota. AI-generated responses may contain inaccuracies and should be verified using reliable religious or educational sources.
 
 ## Licensing 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
