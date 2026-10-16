@@ -154,6 +154,13 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 
 **Note:** The chatbot requires an active Internet connection and a valid OpenAI API key with available API usage quota. AI-generated responses may contain inaccuracies and should be verified using reliable religious or educational sources.
 
+
+## Dependencies
+The AI Christian Chatbot requires the following Python libraries to execute successfully:
+* **openai:** A third-party Python library used to communicate with the OpenAI API, send conversation messages, and retrieve AI-generated responses.
+* **os:** A built-in Python module used to retrieve the OpenaAI API key from the OPENAI_API_KEY environment variable.
+* **sys:** A built-in Python module used to manipulate console output, including clearing the temporary ```Processing...``` message.
+
 ## Licensing 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
