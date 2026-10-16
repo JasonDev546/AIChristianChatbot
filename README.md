@@ -73,7 +73,38 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 7. Run the application:
    
    python AICHRISTIANCHATBOT.py
-     
+
+## Configuration
+1. Create an OpenAI account or sign in to the [OpenAI Platform](https://platform.openai.com/).
+2. Generate an API key from the [OpenAI API Keys page](https://platform.openai.com/api-keys). Ensure that your OpenAI API account has active billing and sufficient credits or available usage quota.
+3. Configure the ```OPENAI_API_KEY``` environment variable on your operating system:
+   
+    **Windows (Powershell):**
+     ```$env:OPENAI_API_KEY = "YOUR_API_KEY"```
+   
+   **Windows (Command Prompt):**
+     ```set OPENAI_API_KEY=YOUR_API_KEY```
+   
+   ***macOS/Linux:**
+     ```export OPENAI_API_KEY="YOUR_API_KEY"```
+4. Ensure that the Python application retrieves the API key from the environment variable using the following code:
+   ```
+   import os
+
+   api_key = os.environ["OPENAI_API_KEY"]
+   ```
+   The retrieved API key is passed to the OpenAIChatbot class, which initializes the OpenAI API       client.
+
+5. Verify that the AI model specified in the OpenAIClient class is available to your API project:
+   ```
+   def __init__(self, api_key, model="gpt-3.5-turbo"):
+   ```
+   The model can be changed by modifying the ```model``` parameter to another supported model         compatible with the Chat Completions API.
+6. Run the application from the terminal where the environment variable was configured:
+   ```
+   python AICHRISTIANCHATBOT.py
+   ```
+**Security Note:** Never include your actual OpenAI API key in your source code, GitHub repository, screenshots, or demonstration videos. Environment variables help prevent accidental exposure of API credentials. The commands above configure the variable for the current terminal session, so it may need to be configured again when opening a new terminal.
 
 ## Licensing 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
