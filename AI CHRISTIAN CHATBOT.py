@@ -1,6 +1,7 @@
 import openai  # Import the OpenAI library to make API requests
 import time  # Import the library for handling time-related operations
 import sys  # Import the library for interacting with the system 
+import os
 
 class OpenAIClient:
     """Handles HTTP requests to the OpenAI API."""
@@ -238,7 +239,7 @@ class OpenAIChatbot:
                 
 
 # Assign the actual OpenAI API key
-api_key = "[ENTER THE OPENAI API KEY HERE]"
+api_key = os.environ["OPENAI_API_KEY"]
 
 # Create an instance of the chatbot using the API key
 chatbot = OpenAIChatbot(api_key)
