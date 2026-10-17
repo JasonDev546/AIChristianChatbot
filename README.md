@@ -30,7 +30,7 @@ The project demonstrates the practical application of Python object-oriented pro
 * **Object-Oriented Design:** Organizes the application into separate Python classes for API communication and chatbot functionality, improving code organization and maintainability.
 
 ## Live Demo
-[![AI Christian Chatbot App](https://github.com/ComeG3tSome/AIChristianChatbot/blob/main/AIChristianChatbot.png)](https://www.youtube.com/watch?v=QqZFvqUfVfo)
+[![AI Christian Chatbot App](https://github.com/JasonDev546/AIChristianChatbot/blob/main/AIChristianChatbot.png)](https://www.youtube.com/watch?v=QqZFvqUfVfo)
 
 ## Prerequisites:
 Before installing and running the AI Christian Chatbot, ensure that you have the following: 
@@ -46,7 +46,7 @@ Before installing and running the AI Christian Chatbot, ensure that you have the
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/ComeG3tSome/AIChristianChatbot
+   git clone https://github.com/JasonDev546/AIChristianChatbot
    cd AIChristianChatbot
    ```
 2. Install the necessary Python packages required for the script to execute successfully
